@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* for spaces between header icons*/
+  padding: 20px;
+  position: sticky; /* stick at the top*/
+  top: 0;
+  z-index: 100; /* always stay above anything*/
+  background-color: white;
+}
+
+.header__logo {
+  height: 40px;
+  object-fit: contain;
+  margin-left: 20px;
+}
+
+.header__input {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  border: 1px solid black;
+}
+
+.header_icon {
+  margin-right: 15px;
+}
+
+.header__inputButton {
+  width: 50px !important;
+  background-color: #fafafa;
+  border-left: 1px solid lightgray;
+  color: gray;
+}
+
+.header__icons {
+  display: flex;
+  align-items: center;
+}
+
+.header__input > input {
+  flex: 1; /* take as much space in the container for search bar*/
+  border: none;
+}
